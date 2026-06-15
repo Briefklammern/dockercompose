@@ -124,6 +124,11 @@ services:
 
 И выполните команду "docker compose up -d". Какой из файлов был запущен и почему? (подсказка: https://docs.docker.com/compose/compose-application-model/#the-compose-file )
 
+```
+Compose предпочитает файл compose.yaml, первым его обрабатывает и считает, что на этом все.
+Чтобы использовать второй файл, необходимо в первом воспользоваться include
+```
+
 2. Отредактируйте файл compose.yaml так, чтобы были запущенны оба файла. (подсказка: https://docs.docker.com/compose/compose-file/14-include/)
 
 3. Выполните в консоли вашей хостовой ОС необходимые команды чтобы залить образ custom-nginx как custom-nginx:latest в запущенное вами, локальное registry. Дополнительная документация: https://distribution.github.io/distribution/about/deploying/
