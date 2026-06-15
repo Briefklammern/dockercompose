@@ -128,6 +128,9 @@ services:
 Compose предпочитает файл compose.yaml, первым его обрабатывает и считает, что на этом все.
 Чтобы использовать второй файл, необходимо в первом воспользоваться include
 ```
+![compose](./img/11.PNG)
+
+![compose](./img/12.PNG)
 
 2. Отредактируйте файл compose.yaml так, чтобы были запущенны оба файла. (подсказка: https://docs.docker.com/compose/compose-file/14-include/)
 
