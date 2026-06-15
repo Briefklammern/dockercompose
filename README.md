@@ -59,6 +59,9 @@ Hey, Netology
 ![bash](./img/5.PNG)
 
 6. Установите любимый текстовый редактор(vim, nano итд) с помощью apt-get.
+```
+Обошелся sed'ом
+```
 7. Отредактируйте файл "/etc/nginx/conf.d/default.conf", заменив порт "listen 80" на "listen 81".
 
 ![CONF](./img/6.PNG)
